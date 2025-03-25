@@ -457,6 +457,7 @@ services:
     networks:
       - ssrf_proxy_network
       - default
+    cpus: '6'
 
   # worker service
   # The Celery worker for processing the queue.
